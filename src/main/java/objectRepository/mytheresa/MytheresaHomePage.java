@@ -9,7 +9,7 @@ public class MytheresaHomePage {
 
 	WebDriver driver;
 
-	@FindBy(xpath="//div[@class='useractions']/a[@href='/de/en/account/login']/span")
+	@FindBy(xpath="//*[@id="root"]/div/div[1]/div[3]/div/div[2]/div/div/div/div[3]/div/a[1]/span")
 	WebElement myaccount_link;
 
 	@FindBy(xpath = "//*[@id=\"customer_flyout_login_info\"]/div/div/button")
